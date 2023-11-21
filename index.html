@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PSIT Attendence</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">PSIT Attendence</div>
+        <!-- <form action="/index.html"> -->
+        <div class="input-boxes">
+            <div class="inpbox">
+                <label>Total Lecture</label>
+                <input class="inp"  name="total-lec" id="total-lec" required>
+            </div>
+            <div class="inpbox">
+                <label>Total Absent</label>
+                <input class="inp"  name="total-abs" id="total-abs" required>
+            </div>
+            <div class="inpbox">
+                <label>Delegation</label>
+                <input class="inp" name="total-deg" id="delg" value="0">
+            </div>
+        </div>
+        <button id="btn"  class="btn">Calculate</button>
+    </form>
+        <h3 id="res" class="res">Attendence : ...</h3>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

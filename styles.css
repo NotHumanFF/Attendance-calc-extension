@@ -1,0 +1,34 @@
+body{
+    width: 350px;
+    height: 400px;
+    background-color: rgb(240, 253, 253);
+    font-family: 'Monsterrat', sans-serif;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.header{
+    font-size: 35px;
+}
+
+.input-boxes{
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+}
+
+.inpbox{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+input{
+    width: 50px;
+}
