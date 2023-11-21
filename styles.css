@@ -4,7 +4,6 @@ body{
     background-color: rgb(240, 253, 253);
     font-family: 'Monsterrat', sans-serif;
 }
-
 .container{
     display: flex;
     justify-content: center;
