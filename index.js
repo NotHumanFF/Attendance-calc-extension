@@ -1,5 +1,4 @@
 function fun() {
-    
     btn.addEventListener('click', function () {
         const btn = document.getElementById('btn');
         const ttlLec = document.getElementById('total-lec');
