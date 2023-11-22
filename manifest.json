@@ -14,5 +14,4 @@
   "content_security_policy": "script-src 'self' 'nonce-randomvalue'; object-src 'self'"
 
   
-
 }
